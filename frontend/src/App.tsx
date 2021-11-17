@@ -1,9 +1,10 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
 
 const App = () => {
   return (
-    <h1>Hello</h1>
+    <h1 className="bg-primary">Hello</h1>
   );
 };
 
